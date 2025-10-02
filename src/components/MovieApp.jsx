@@ -50,7 +50,7 @@ const MovieApp = () => {
         }
         const response = await axios.get(endpoint, { params });
 
-        //console.log("Movies response:", response.data);
+       // console.log("Movies response:", response.data);
 
 
         setMovies(response.data.results || []);
